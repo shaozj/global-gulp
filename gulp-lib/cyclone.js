@@ -49,9 +49,9 @@ function copyPath() {
 module.exports = function(cb){
   var cssSrc = [gp('src/**/*.less'), gp('src/**/*.css'), '!' + gp('src/lib/**/*')];
   var jsSrc = [gp('src/**/*.js'), '!' + gp('src/lib/**/*')];
-  var copySrc = [gp('src/page/**/*.html'), gp('src/res/**/*'), gp('src/lib/**/*'), gp('src/manifest.json')];
+  var copySrc = [gp('src/page/**/assets/**'), gp('src/page/**/*.html'), gp('src/res/**/*'), gp('src/lib/**/*'), gp('src/manifest.json')];
   var dest = gp('buildLocal/');
-  var copyDest = [gp('buildLocal/page'), gp('buildLocal/res'), gp('buildLocal/lib'), gp('buildLocal/')];
+  var copyDest = [gp('buildLocal/page'), gp('buildLocal/page'), gp('buildLocal/res'), gp('buildLocal/lib'), gp('buildLocal/')];
 
   buildCss(cssSrc, dest);
   buildJs(jsSrc, dest);
