@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cebaa62-569a-4139-9cd0-04005fe7fa56" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp-lib/cyclone.js" afterPath="$PROJECT_DIR$/gulp-lib/cyclone.js" />
     </list>
     <ignored path="global-gulp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,8 +86,8 @@
       <file leaf-file-name="cyclone.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulp-lib/cyclone.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41434264">
-              <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.7729084">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -317,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulp-lib/cyclone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41434264">
-          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.7729084">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding />
         </state>
       </provider>
