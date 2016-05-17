@@ -62,7 +62,7 @@ module.exports = function(options, pages) {
     gutil.log(gutil.colors.yellow('File ' + event.path + ' was ' + event.type));
   });
 
-  var wArr = [gp('src/**'), '!' + gp('src/service/**'), '!' + gp('src/lib/**'), '!' + gp('src/page/**'), '!' + gp('src/res/**')];
+  var wArr = [gp('src/**'), '!' + gp('src/service/**'), '!' + gp('src/lib/**'), '!' + gp('src/page/**'), gp('src/res/**')];
 
   watchers[watchers.length] = gulp.watch(wArr, function() {
 
